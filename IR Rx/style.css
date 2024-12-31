@@ -1,0 +1,84 @@
+/* Estilo básico */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Estilo do título */
+h1 {
+  color: #4CAF50;
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+/* Parágrafo */
+p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: #555;
+}
+
+/* Seção de dados recebidos */
+#received-data {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #4CAF50;
+  padding: 10px;
+  border: 2px dashed #4CAF50;
+  background-color: #e8f5e9;
+  width: 80%;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+/* Botões */
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#connect-serial {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+#connect-serial:hover {
+  background-color: #45a049;
+}
+
+#save-pdf {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+#save-pdf:hover {
+  background-color: #1e88e5;
+}
+
+/* Layout responsivo */
+@media (max-width: 600px) {
+  body {
+    font-size: 90%;
+  }
+
+  #received-data {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
